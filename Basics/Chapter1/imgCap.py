@@ -1,4 +1,4 @@
-#read videos images and webcam
+#read images
 import cv2
 img = cv2.imread("Resources/cat.jpg") #imread reads image from given path
 cv2.imshow("Output", img)   #imshow display impage
